@@ -1,0 +1,892 @@
+.logo-text {
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.header {
+  height: 73px !important;
+}
+
+.hero__wrap .hero__title {
+  color: white !important;
+}
+
+.hero__meta {
+  font-family: 'EB Garamond';
+}
+
+html, body {
+  background-color: black !important;
+  overflow-y: scroll;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 88vh;
+  }
+
+  .about1 {
+    font-size: 21px !important;
+  }
+
+  .about2 {
+    font-size: 14px;
+  }
+
+  .hero__wrap .hero__title {
+    font-size: 43px !important;
+    font-weight: 600;
+  }
+
+  .hero__wrap .hero__head {
+    font-size: 30px !important;
+    font-weight: 600;
+    color: white   !important;
+  }
+
+  .hero__meta {
+    font-size: 13px !important;
+    font-family: "Special Elite";
+    margin-top: 12px;
+  }
+
+  .hero__wrap {
+    top: 50% !important;
+  }
+
+  .hero--main {
+    top: 40% !important;
+  }
+
+  .hero__title {
+    padding-bottom: 14px;
+    margin-bottom: -3px !important;
+    line-height: 1.2;
+  }
+
+  .hero--post .hero__wrap {
+    top: 51% !important;
+  }
+
+  .header a {
+    font-weight: 500 !important;
+  }
+
+  .header__link {
+    font-size: 17px;
+    padding-left: 20px !important;
+    font-family: "Pretendard";
+  }
+
+  .header__link {
+    /* border-top: 1px solid black !important; */
+    padding-top: 15px !important;
+  }
+
+  table td {
+    padding: 20px 3px !important;
+  }
+
+  .header__overlay.--open {
+    width: 0% !important;
+  }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+  .hero {
+    height: 95vh;
+  }
+
+  .about1 {
+    font-size: 30px !important;
+  }
+
+  .about2 {
+    font-size: 20px;
+  }
+
+  .hero__wrap {
+    top: 57% !important;
+  }
+
+  .hero__wrap .hero__title {
+    font-size: 43px !important;
+    font-weight: 600;
+  }
+
+  .hero__wrap .hero__head {
+    font-size: 37px !important;
+    font-weight: 600;
+    color: white !important;
+  }
+
+  .hero--main {
+    top: 43% !important;
+  }
+
+  .hero__title {
+    padding-bottom: 0px;
+    margin-bottom: 17px !important;
+  }
+
+  .hero__meta {
+    font-size: 12px !important;
+    font-family: "Special Elite";
+  }
+
+  .hero--post .hero__wrap {
+      top: 50% !important;
+  }
+
+  .header a {
+    font-weight: 500;
+  }
+
+  .header__link {
+    font-size: 17px;
+    font-family: "Pretendard";
+    padding: 0.938rem 1.2rem !important;
+    white-space: nowrap !important;
+  }
+
+  table td {
+    padding: 20px 20px !important;
+  }
+  
+}
+
+/*
+
+@media (min-width: 769px) {
+
+  .header {
+    display: flex;
+    align-items: center;
+  }
+
+  .header .container {
+    width: 100%;
+  }
+
+  .header .container .header__inner {
+    display: flex;
+    flex-direction: row;      
+    align-items: center;      
+    justify-content: center;  
+    height: 60px;           
+    text-align: center;
+    gap: 24px;               
+  }
+
+  .header__logo {
+    margin-left: 0;           
+    margin-bottom: 0;       
+    justify-content: center;
+  }
+
+  .header__links {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header__links-wrapper {
+    display: flex;
+    gap: 16px;               
+  }
+
+  .header__toggle {
+    display: none;           
+  }
+}
+
+*/
+
+@media (min-width: 992px) and (max-width: 1376px) {
+    .hero {
+        height: 100vh !important;
+    }
+
+    .about1 {
+      font-size: 37px !important;
+    }
+
+    .about2 {
+      font-size: 23px;
+    }
+
+    .hero__wrap .hero__title {
+      font-size: 59px !important;
+      font-weight: 600;
+    }
+
+    .hero__wrap .hero__head {
+      font-size: 43px !important;
+      font-weight: 600;
+      color: white !important;
+    }
+
+    .hero__meta {
+      font-size: 17px !important;
+      padding-top: 10px;
+      font-family: 'Special Elite';
+    }
+
+    .hero__wrap {
+      top: 52% !important;
+    }
+
+    .hero--main{
+      top: 48% !important;
+    }
+
+    .hero__title {
+      padding-bottom: 23px !important;
+      line-height: 1.2 !important;
+      padding-top: 0px !important;
+    }
+
+    .hero--post .hero__wrap {
+      font-size: 20px !important;
+      top: 61% !important;
+    }
+
+    .header a {
+      font-weight: 500;
+    }
+
+    .header__link {
+      font-size: 17px;
+      font-family: "Pretendard";
+      padding: 0.938rem 1.2rem !important;
+      border-top: none;
+    }
+
+}
+
+@media (min-width: 1376px) {
+  .hero {
+      height: 100vh !important;
+  }
+
+  .hero__wrap .hero__title {
+    font-size: 73px !important;
+    font-weight: 600;
+  }
+
+  .about1 {
+    font-size: 37px !important;
+  }
+
+  .about2 {
+    font-size: 23px;  
+  }
+
+  .hero__wrap .hero__head {
+    font-size: 43px !important;
+    font-weight: 600;
+    color: white !important;
+  }
+
+  .hero__meta {
+    font-size: 23px !important;
+    padding-top: 30px !important;
+    font-family: 'Special Elite';
+  }
+
+  .hero__wrap {
+    top: 52% !important;
+  }
+
+  .hero--main{
+    top: 48% !important;
+  }
+
+  .hero__title {
+    padding-bottom: 23px !important;
+    line-height: 1.2 !important;
+    padding-top: 0px !important;
+  }
+
+  .hero--post .hero__wrap {
+    font-size: 20px !important;
+    top: 61% !important;
+  }
+
+  .header a {
+    font-weight: 500;
+  }
+
+  .header__link {
+    font-size: 20px;
+    font-family: "Pretendard";
+    padding: 0.983rem 1.4rem !important;
+    border-top: none;
+    font-weight: 500 !important;
+  }
+
+}
+
+.hero--post .hero__title {
+  padding-bottom: 0px !important;
+}
+
+.hero:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); 
+  z-index: 0; 
+}
+
+.post-card__thumb >* {
+    width: auto;
+    height: fit-content;
+    object-fit: cover; 
+    top: 0;
+    left: 0;
+    object-position: center;
+    display: block;
+}
+
+.post-card__thumb > img {
+    position: absolute;
+    object-fit: cover;     
+    object-position: center !important;
+
+}
+
+.post-content {
+    padding-top: 30px;
+}
+
+
+body {
+    color: black !important;
+    font-family: "Pretendard", "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    line-height: 1.7;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    overflow: visible;
+}
+
+h2 {
+    font-size: 1.4em;
+    font-weight: 600 !important;
+}
+
+
+footer {
+    color: rgba(0, 0, 0, 0.56) !important;
+}
+
+.hero--small:not(.hero--home)::before {
+  background-image: url('/assets/img/hero2.jpg') !important;
+}
+
+.post-card {
+  display: flex;
+  flex-direction: row !important;
+}
+
+::selection {
+  background-color: #0F52BA !important; /* 0F52BA 91ffc6 91ffe4 5CFFD1 #2A52BE rgb(75, 86, 152) rgb(67, 76, 140)*/ 
+  color: white !important; 
+}
+
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 3rem;
+  padding: 1.5rem 0;
+  font-size: 0.95rem;
+  font-weight: 400;
+  margin-top: -20px !important;
+}
+
+/* 현재 페이지 */
+.pagination .current {
+  background: none;
+  color: var(--color-primary, #0072ce);
+  font-weight: 600;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.375rem;
+  box-shadow: inset 0 0 0 1px currentColor;
+}
+
+/* 일반 페이지 번호 */
+.pagination a {
+  color: inherit;
+  text-decoration: none;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.375rem;
+  transition: all 0.15s ease;
+}
+
+.pagination a:hover {
+  background: var(--color-surface, #f8f9fa);
+  color: var(--color-primary, #0072ce);
+  border-color: currentColor;
+  transform: translateY(-1px);
+}
+
+/* Next/Previous 링크 */
+.pagination .next,
+.pagination .previous {
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border: 1px solid currentColor;
+  background: none;
+}
+
+.pagination .next:hover,
+.pagination .previous:hover {
+  background: var(--color-primary, #0072ce);
+  color: white;
+  border-color: var(--color-primary, #0072ce);
+}
+
+/* 비활성 상태 */
+.pagination .disabled {
+  color: var(--color-text-muted, #6c757d);
+  cursor: not-allowed;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* 모바일 */
+@media (max-width: 768px) {
+  .pagination {
+    gap: 0.25rem;
+    font-size: 0.9rem;
+  }
+  
+  .pagination .next,
+  .pagination .previous {
+    padding: 0.4rem 0.8rem;
+  }
+}
+
+.blog {
+  background-color: white !important;
+}
+
+.site__content {
+  background-color: white !important;
+}
+
+p {
+  font-family: "Pretendard"; /*  "Gothic A1" */
+  line-height: 1.9;
+  font-weight: 400 !important;
+  font-style: normal; 
+  font-size: 17px;
+}
+
+
+.header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  color: black !important;
+  border-bottom: 1px solid black !important;
+} 
+
+/*
+.header {
+  position: relative;
+}
+
+
+.header__center-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  white-space: nowrap;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  letter-spacing: 4px;
+  display: block;
+  font-weight: 600;
+}
+
+*/
+
+@font-face{
+  font-family: 'Ajou';
+  src: url(/assets/fonts/AjouTTF.ttf);
+} 
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Thin.woff2') format('woff2');
+  font-display: swap;
+}
+
+/* 
+.header__logo img {
+  image-rendering: optimizeQuality;
+  shape-rendering: geometricPrecision;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+*/
+
+.header__logo--container {
+  margin-top: 9px;
+  margin-left: 5px;
+  scale: 1.45 !important;
+}
+
+.header__logo--container svg{
+  display: block;
+  overflow: visible;
+}
+
+.header__logo .header__logo--container {
+  width: 40px !important;
+}
+
+/*
+.hero--home {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('/assets/img/main.jpg');
+}
+
+*/
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 36px;
+  background-color: white !important;
+}
+
+@media (max-width: 370px) {
+  .header__center-text {
+    display: none;
+  }
+
+  .header__brand-text {
+    display: none;
+  }
+}
+
+@media (min-width: 371px) {
+  .header__brand-text {
+    display: block;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: black !important;
+  margin-bottom: 0;
+}
+
+h1 {
+  margin-bottom: 0 !important;
+  font-size: 1.7em !important;
+}
+
+.header__link {
+  color: black !important;
+}
+
+
+.footer {
+  padding: 33px 0;
+  padding-bottom: 37px;
+}
+
+.footer__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.footer__left,
+.footer__center,
+.footer__right {
+  display: flex;
+  align-items: center;
+  flex: 1 1 0;
+}
+
+.footer__center {
+  justify-content: center;
+  text-align: center;
+}
+
+
+.footer__right {
+  justify-content: flex-end;
+  text-align: right;
+  padding-bottom: 1px;
+  font-size: 10px !important;
+}
+
+.footer__logo {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  padding-top: 6px;
+}
+
+
+@media (max-width: 600px) {
+  .footer__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer__center,
+  .footer__right {
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.footer__copy {
+  font-size: 10px !important;
+}
+
+.header__toggle {
+  padding-right: 1px;
+  margin-top: 10px;
+
+}
+
+/*
+
+.header__toggle span {
+  display: block;
+  margin: 3px 0; 
+  width: 25px;
+  height: 3px;
+  background-color: black;
+}
+
+*/
+
+.footer__address {
+  padding-right: 1px;
+}
+
+
+.hero__title {
+  padding-top: 14px !important;
+  margin-bottom: 7px;
+}
+
+.hero::before {
+  background: rgba(0, 0, 0, 0.4) !important;
+}
+
+
+.hero.hero-mainpage::before {
+  background: rgba(0, 0, 0, 0.3) !important;
+}
+
+.hero__meta {
+  margin-bottom: 8px !important;
+}         
+
+
+
+.header__logo {
+  margin-left: 0px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: #111;
+  flex-shrink: 0;
+  overflow: visible !important;
+}
+
+
+.post-card__header {
+  margin-bottom: 4px !important;
+}
+
+
+.header .container .header__inner {
+  height: 60px;
+}
+
+
+.header__brand-text {
+  margin-top: -1px;
+  margin-left: -2px;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+
+.header__brand-title {
+  font-size: 17px;
+  font-weight: 600;
+  color: black !important;
+  text-align: left !important;
+  letter-spacing: 1px !important;
+}
+
+.header__brand-subtitle {
+  font-size: 10px;
+  font-weight: 500 !important; 
+  color: rgba(0, 0, 0, 0.56); !important;  /*  rgba(0, 0, 0, 0.56); */
+  font-family: "Noto Sans";
+}
+
+a {
+  border-bottom: none !important;
+  text-decoration: none !important;
+}
+
+.post-card__meta {
+  font-size: 13px !important;
+}
+
+.header.fix-nav {
+  /* border-bottom: 1px solid black !important; */
+}
+
+.header__overlay {
+  background-color: white !important;
+}
+
+.header__overlay {
+  transition: none !important;
+}
+
+.header__overlay.--open {
+  height: 26vh !important;
+}
+
+.header__links {
+  margin-top: 8px !important;
+}
+
+table {
+  font-size: 16px !important;
+}
+
+hr {
+  background: black !important;
+  margin-top: 30px !important;
+  width: 100% !important;
+}
+
+.header__links.js--open {
+  padding-bottom: 0px !important;
+  margin-top: 13px !important;
+}
+
+.border-hr-dashed {
+  border: 2px dashed #ededed !important;
+  background-color: white !important;
+}
+
+
+@media (min-width: 769px) {
+  /* 부모 요소인 header__inner에 기준점 설정 */
+  .header .container .header__inner {
+    position: relative !important;
+  }
+
+  .header__link {
+    border-bottom: 0px solid black !important;
+  }
+
+  /* 네비게이션 메뉴 가로/세로 정중앙 고정 */
+  .header__links, .header__links.js--open {
+    position: absolute !important;
+    left: 50% !important;
+    top: 57% !important;
+    transform: translate(-50%, -50%) !important;
+    margin-top: 0 !important; /* 기존 margin-top: 8px 제거 */
+    text-decoration: none !important;
+    padding-bottom: 0 !important;   /* 모바일 패딩 제거 */
+    border-bottom: none !important; /* 모바일 밑줄 제거 */
+  }
+
+  .header__links-wrapper {
+    display: flex !important;
+    align-items: center !important;
+    gap: 20px !important; /* 메뉴 간격 */
+  }
+
+  .header__search-btn {
+    display: inline-block !important;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto; /* 오른쪽에 밀착 */
+    color: black !important;
+    padding: 6px;
+    cursor: pointer;
+    margin-top: 14px;
+  }
+
+  .header__search-btn:hover {
+    opacity: 0.6;
+  }
+
+  .header__link::after {
+    bottom: -6px !important;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .header__search-btn {
+    display: inline-block !important;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto; /* 오른쪽에 밀착 */
+    color: black !important;
+    padding: 6px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    margin-top: 15px;
+  }
+
+  .header__link {
+    border-bottom: 1px solid black !important;
+  }
+
+  .header__search-btn:hover {
+    opacity: 0.6;
+  }
+}
+
+
+.label {
+  margin-bottom: none !important;
+  border-bottom: 2px solid rgba(255,255,255,0.5) !important;
+  transition: all 1s ease;
+}
+
+
+.label:hover {
+  border: none !important;
+  background-color: none !important;
+}
+
+
+
+.category-head {
+  margin-top: 37px !important;
+}

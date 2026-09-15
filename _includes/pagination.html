@@ -1,0 +1,29 @@
+{% if paginator.total_pages > 1 %}
+<nav class="pagination">
+
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination__item">
+      Prev
+    </a>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <span class="pagination__item current">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a href="{{ '/' | relative_url }}" class="pagination__item">{{ page }}</a>
+    {% else %}
+      <a href="{{ site.paginate_path | replace: ':num', page | relative_url }}" class="pagination__item">
+        {{ page }}
+      </a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | relative_url }}" class="pagination__item">
+      Next
+    </a>
+  {% endif %}
+
+</nav>
+{% endif %}
