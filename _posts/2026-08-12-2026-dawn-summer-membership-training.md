@@ -98,8 +98,7 @@ math: true
 
 <br>
 <p style="font-size: 16px; margin-bottom: 0px; margin-top: 37px;">참고문헌</p>
-<br>
-망원경의 역사
+
 <br>
 By <a href="https://en.wikipedia.org/wiki/en:Adriaen_van_de_Venne" class="extiw" title="w:en:Adriaen van de Venne"><span title="painter from the Northern Netherlands (1589-1662)">Adriaen van de Venne</span></a> - <a rel="nofollow" class="external free" href="https://www.phys.uu.nl/~vgent/telescope/telescopenl.htm">https://www.phys.uu.nl/~vgent/telescope/telescopenl.htm</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=6286037">Link</a>
 <br>
@@ -110,8 +109,6 @@ Rice University. (n.d.). Hans Lipperhey patent record. https://galileo.library.r
 University of Virginia. (n.d.). Galileo and the telescope. Galileo and Einstein. https://galileoandeinstein.phys.virginia.edu/lectures/galtel.html
 <br>
 Universe Today. (2016, July 13). Galileo's telescope. https://www.universetoday.com/articles/galileos-telescope
-<br><br>
-굴절망원경 도입
 <br>
 AstroBackyard. (2026, August 6). Types of telescopes: Refractor, reflector, and catadioptric. https://astrobackyard.com/types-of-telescopes/
 <br>
@@ -132,10 +129,6 @@ Sky at Night Magazine. (2025, July 18). Who invented the telescope? https://www.
 Florida State University. (2015, November 13). Hans Lippershey. The Molecular Expressions Microscopy Primer. https://micro.magnet.fsu.edu/optics/timeline/people/lippershey.html
 <br>
 NASA. (2024, August 8). [천문 관련 APOD 이미지]. Astronomy Picture of the Day. https://apod.nasa.gov/apod/ap240808.html
-
-
-<br><br>
-별자리와 그리스 로마 신화
 <br>
 Centre of Excellence. (n.d.). The Perseus constellation. https://www.centreofexcellence.com/the-perseus-constellation/
 <br>
@@ -146,15 +139,8 @@ Sky & Telescope. (2020, August 10). Perseids peak August 11–12: Get ready for 
 Sky at Night Magazine. (2024, March 2). Orbital eccentricity. https://www.skyatnightmagazine.com/space-science/orbital-eccentricity
 <br>
 한국천문연구원. (n.d.). 별자리의 기원. https://astro.kasi.re.kr/kor/pageView/6453
-
-
-<br><br>
-밤하늘 관측 활동
 <br>
 Star Walk. (2026, August 12). All you need to know about the Perseids. https://starwalk.space/ko/news/all-you-need-to-know-about-the-perseids
-
 </div>
-
-
 <br>
 
