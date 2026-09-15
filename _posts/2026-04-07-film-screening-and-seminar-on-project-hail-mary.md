@@ -3,7 +3,7 @@ layout: post
 title: "『프로젝트 헤일메리』 영화 관람 및 세미나"    
 date: 2026-04-07 18:30 +0900
 description: ""
-categories: [영화]
+categories: [영화 관람]
 featured-img: /assets/img/2026-1/film-screening-and-seminar-on-project-hail-mary/seminar.jpeg
 tags: []
 math: true
