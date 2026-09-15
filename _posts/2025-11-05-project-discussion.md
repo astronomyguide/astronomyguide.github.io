@@ -4,7 +4,7 @@ title: "소학회 프로젝트 회의"
 date: 2025-11-05 19:00 +0900
 description: ""
 featured-img: /assets/img/2025-2/project-discussion/1.jpg
-categories: [회의]
+categories: [소학회 회의]
 tags: [회의]
 math: true
 ---

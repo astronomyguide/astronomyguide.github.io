@@ -4,7 +4,7 @@ title: "2026년 DAWN 하계 MT | 서산"
 date: 2026-08-12 18:30 +0900
 description: ""
 featured-img: /assets/img/2026-1/2026-dawn-summer-membership-training/main.jpeg
-categories: [MT]
+categories: [소학회 MT]
 math: true
 ---
 

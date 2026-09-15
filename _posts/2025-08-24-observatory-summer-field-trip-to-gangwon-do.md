@@ -4,7 +4,7 @@ title: "천문대 하계 답사 | 강원도"
 date: 2025-08-24 18:30 +0900
 description: ""
 featured-img: /assets/img/2025-1/observatory-summer-field-trip-to-gangwon-do/8.jpg
-categories: [답사]
+categories: [천문대 답사]
 math: true
 ---
 

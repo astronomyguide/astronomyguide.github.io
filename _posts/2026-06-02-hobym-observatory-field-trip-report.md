@@ -4,7 +4,7 @@ title: "호빔천문대 답사 보고"
 date: 2026-06-02 18:30 +0900
 description: ""
 featured-img: /assets/img/2026-1/hobym-observatory-field-trip-report/thumbnail.jpeg
-categories: [답사]
+categories: [천문대 답사]
 math: true
 ---
 
