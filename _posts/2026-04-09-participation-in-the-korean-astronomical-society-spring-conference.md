@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "한국천문학회 봄학술대회 참가"    
+title: "2026 한국천문학회 봄학술대회 참가"    
 date: 2026-04-09 14:00 +0900
 description: ""
 categories: [학술대회]
@@ -10,7 +10,7 @@ math: true
 
 <!-- Korean Astronomical Society Spring Meeting Participation -->
 
-<h1>한국천문학회 봄학술대회 참가</h1>
+<h1>2026 한국천문학회 봄학술대회 참가</h1>
 <div style="margin-top: 30px;"></div>
 
 <div style="font-weight: 500;">

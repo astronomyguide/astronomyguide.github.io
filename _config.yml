@@ -19,9 +19,9 @@ social:
 
 # THEME SETTINGS
 navigation: # Navigation links
-  - {name: '소개', link: '/about'}
   - {name: '홈', link: '/'}
-  - {name: '프로젝트', link: '/projects'}
+  - {name: '소개', link: '/about'}
+  - {name: '위키 (preparing...)', link: 'https://ajou-dawn.com/wiki'}
   - {name: '문의', link: '/contact'}
 
 tagline: >

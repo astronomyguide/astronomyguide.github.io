@@ -890,3 +890,13 @@ hr {
 .category-head {
   margin-top: 37px !important;
 }
+
+
+.post-card__inner{
+  color: black !important;
+}
+
+.post-card p {
+  font-size: 15px !important;
+  margin-top: 10px !important;
+}

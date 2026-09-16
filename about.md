@@ -49,6 +49,13 @@ featured-img: /assets/img/dawn.jpeg
 <br><br>
 <div style="font-family: 'Noto Sans'; text-align: center; font-size: 10px; padding-top: 10px; color: rgba(0, 0, 0, 0.56) !important; margin-top: 30px;">로고 사진 출처: DAWN | 웹사이트 테마: <a href="https://jekyllrb.com" target="_blank" rel="noopener noreferrer" style="color: rgba(0, 0, 0, 0.56) !important;">Jekyll</a> <a href="https://github.com/janczizikow/sleek" target="_blank" rel="noopener noreferrer" style="color: rgba(0, 0, 0, 0.56) !important;">Sleek</a> | 배경사진: <a href="https://pixabay.com/illustrations/earth-space-sunlight-sun-rays-1756274/" target="_blank" rel="noopener noreferrer" style="color: rgba(0, 0, 0, 0.56) !important;">Pixabay</a></div>
 
+
+<img src="/assets/img/projects/26project1.jpeg" alt="" style="margin-top: 73px !important; scale: 1.2;">
+
+<img src="/assets/img/projects/26project2.jpeg" alt="" style="margin-top: 100px !important; scale: 1.2">
+
+<div style="display: flex; text-align: center; justify-content: center; margin-top: 200px;">*버튼 기능은 현재 준비 중입니다. 감사합니다.</div>
+
 <!--
 
 <br>
