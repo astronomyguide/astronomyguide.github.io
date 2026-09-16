@@ -845,7 +845,7 @@ hr {
   }
 
   .header__link::after {
-    bottom: -6px !important;
+    bottom: -8px !important;
   }
 }
 
