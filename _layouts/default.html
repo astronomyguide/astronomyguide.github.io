@@ -69,14 +69,14 @@ layout: compress
               const cycle = 29.53058867;
               const phase = (diffDays % cycle) / cycle;
 
-              if (phase < 0.03 || phase > 0.97) return {src: "./assets/img/moon/0.png"};
-              if (phase < 0.25) return {src: "./assets/img/moon/1.png"};
-              if (phase < 0.28) return {src: "./assets/img/moon/2.png"};
-              if (phase < 0.50) return {src: "./assets/img/moon/3.png"};
-              if (phase < 0.53) return {src: "./assets/img/moon/4.png"};
-              if (phase < 0.75) return {src: "./assets/img/moon/5.png"};
-              if (phase < 0.78) return {src: "./assets/img/moon/6.png"};
-              return {src: "./assets/img/moon/7.png"};
+              if (phase < 0.03 || phase > 0.97) return {src: "/assets/img/moon/0.png"};
+              if (phase < 0.25) return {src: "/assets/img/moon/1.png"};
+              if (phase < 0.28) return {src: "/assets/img/moon/2.png"};
+              if (phase < 0.50) return {src: "/assets/img/moon/3.png"};
+              if (phase < 0.53) return {src: "/assets/img/moon/4.png"};
+              if (phase < 0.75) return {src: "/assets/img/moon/5.png"};
+              if (phase < 0.78) return {src: "/assets/img/moon/6.png"};
+              return {src: "/assets/img/moon/7.png"};
           }
 
           const phaseData = getMoonPhaseData();
