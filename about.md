@@ -65,7 +65,7 @@ featured-img: /assets/img/dawn.jpeg
   <ul style="list-style: none; padding: 0; margin: 0;">
     <li>Moon phase images: <a href="https://svs.gsfc.nasa.gov/5415/" target="_blank" style="color: inherit; text-decoration: underline;">NASA’s Scientific Visualization Studio</a></li>
     <li>Moon phase guide: <a href="https://moonphase.guide/" target="_blank" style="color: inherit; text-decoration: underline;">Moon Phase Guide</a></li>
-    <li>Hero background image: <a href="https://pixabay.com/illustrations/earth-space-sunlight-sun-rays-1756274/" target="_blank" style="color: inherit; text-decoration: underline;">Pixabay</a></li>
+    <li>Logo background image: <a href="https://pixabay.com/illustrations/earth-space-sunlight-sun-rays-1756274/" target="_blank" style="color: inherit; text-decoration: underline;">Pixabay</a></li>
   </ul>
 </div>
 
