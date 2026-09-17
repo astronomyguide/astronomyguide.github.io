@@ -55,7 +55,7 @@ html, body {
   }
 
   .hero--main {
-    top: 40% !important;
+    top: 30% !important;
   }
 
   .hero__title {
@@ -91,6 +91,11 @@ html, body {
     width: 0% !important;
   }
 
+  .moon {
+    margin-bottom: 73px;
+    scale: 0.9
+  }
+
 
 }
 
@@ -124,7 +129,7 @@ html, body {
   }
 
   .hero--main {
-    top: 43% !important;
+    top: 30% !important;
   }
 
   .hero__title {
@@ -154,6 +159,10 @@ html, body {
 
   table td {
     padding: 20px 20px !important;
+  }
+
+  .moon {
+    margin-bottom: 73px;
   }
   
 }
@@ -239,7 +248,7 @@ html, body {
     }
 
     .hero--main{
-      top: 48% !important;
+      top: 37% !important;
     }
 
     .hero__title {
@@ -262,6 +271,10 @@ html, body {
       font-family: "Pretendard";
       padding: 0.938rem 1.2rem !important;
       border-top: none;
+    }
+
+    .moon {
+      margin-bottom: 73px;
     }
 
 }
@@ -301,7 +314,7 @@ html, body {
   }
 
   .hero--main{
-    top: 48% !important;
+    top: 37% !important;
   }
 
   .hero__title {
@@ -325,6 +338,10 @@ html, body {
     padding: 0.983rem 1.4rem !important;
     border-top: none;
     font-weight: 500 !important;
+  }
+
+  .moon {
+    margin-bottom: 73px;
   }
 
 }
@@ -847,6 +864,7 @@ hr {
   .header__link::after {
     bottom: -8px !important;
   }
+
 }
 
 
@@ -899,4 +917,9 @@ hr {
 .post-card p {
   font-size: 15px !important;
   margin-top: 10px !important;
+}
+
+
+.hero__wrap {
+  color: white !important;
 }

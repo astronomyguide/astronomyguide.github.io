@@ -19,12 +19,27 @@ layout: compress
 
     {% include header.html %}
 
+    <!-- 히어로 섹션 시작 -->
     <div class="hero lazyload hero-mainpage" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.hero_img }}">
       <div class="hero__wrap hero--main">
-        <h1 class="hero__title" style="letter-spacing: 1px !important;">{{ site.title | escape }}</h1>  
+        
+        <!-- 타이틀과 달 위젯을 가로로 나란히 배치하는 Flex 컨테이너 -->
+        
+          <!-- 달 위젯 (타이틀 위로 이동) -->
+        <!-- 달 위젯 (타이틀 위로 이동) -->
+        <div style="display: inline-flex; align-items: center;">
+          <a href="https://svs.gsfc.nasa.gov/5415/" target="_blank" title="NASA's Scientific Visualization Studio" style="text-decoration: none;">
+            <img class="moon" id="moon-phase-img" src="" style="height: 120px; width: auto; object-fit: contain;" alt="Moon Phase">
+          </a>
+        </div>
+
+        <h1 class="hero__title" style="letter-spacing: 1px !important; margin: 0;">{{ site.title | escape }}</h1>  
+        
+
         <p class="hero__meta">{{ site.tagline }}</p>
       </div>
     </div>
+    <!-- 히어로 섹션 끝 -->
 
     <main class="site__content">
       <section class="blog">
@@ -44,6 +59,33 @@ layout: compress
     </main>
 
     {% include footer.html %}
+
+    <script>
+      (function() {
+          function getMoonPhaseData() {
+              const date = new Date();
+              const knownNewMoon = new Date(2000, 0, 6, 18, 14);
+              const diffDays = (date - knownNewMoon) / (1000 * 60 * 60 * 24);
+              const cycle = 29.53058867;
+              const phase = (diffDays % cycle) / cycle;
+
+              if (phase < 0.03 || phase > 0.97) return {src: "./assets/img/moon/0.png"};
+              if (phase < 0.25) return {src: "./assets/img/moon/1.png"};
+              if (phase < 0.28) return {src: "./assets/img/moon/2.png"};
+              if (phase < 0.50) return {src: "./assets/img/moon/3.png"};
+              if (phase < 0.53) return {src: "./assets/img/moon/4.png"};
+              if (phase < 0.75) return {src: "./assets/img/moon/5.png"};
+              if (phase < 0.78) return {src: "./assets/img/moon/6.png"};
+              return {src: "./assets/img/moon/7.png"};
+          }
+
+          const phaseData = getMoonPhaseData();
+          const imgElement = document.getElementById("moon-phase-img");
+          if (imgElement) {
+              imgElement.src = phaseData.src;
+          }
+        })();
+    </script>
 
   </body>
 

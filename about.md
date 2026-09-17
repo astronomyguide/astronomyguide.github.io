@@ -47,15 +47,30 @@ featured-img: /assets/img/dawn.jpeg
 천문대 답사 - 국내 주요 천문대를 방문해 실제 연구 현장과 관측 장비를 견학합니다.
 
 자체 프로젝트 - 하나의 주제를 선정해 1~2학기 동안 깊이 파고들고, 학기 말에 그 결과를 발표로 정리합니다.
-<br><br>
-<div style="font-family: 'Noto Sans'; text-align: center; font-size: 10px; padding-top: 10px; color: rgba(0, 0, 0, 0.56) !important; margin-top: 30px;">로고 사진 출처: DAWN | 웹사이트 테마: <a href="https://jekyllrb.com" target="_blank" rel="noopener noreferrer" style="color: rgba(0, 0, 0, 0.56) !important;">Jekyll</a> <a href="https://github.com/janczizikow/sleek" target="_blank" rel="noopener noreferrer" style="color: rgba(0, 0, 0, 0.56) !important;">Sleek</a> | 배경사진: <a href="https://pixabay.com/illustrations/earth-space-sunlight-sun-rays-1756274/" target="_blank" rel="noopener noreferrer" style="color: rgba(0, 0, 0, 0.56) !important;">Pixabay</a></div>
-
 
 <img src="/assets/img/projects/26project1.jpeg" alt="" style="margin-top: 0px !important; scale: 1.0;">
 
 <img src="/assets/img/projects/26project2.jpeg" alt="" style="margin-top: -37px !important; scale: 1.0">
 
 <div style="display: flex; text-align: center; justify-content: center; margin-top: 200px;">*버튼 기능은 현재 준비 중입니다. 감사합니다.</div>
+
+<br>
+
+<hr class="border-hr-dashed">
+
+<div style="margin-top: 37px;"></div>
+
+<div class="credits-section" style="font-size: 12px; color: rgba(0, 0, 0, 0.56); line-height: 1.8; margin-top: 30px;">
+  <strong style="display: block; margin-bottom: 4px; color: rgba(0, 0, 0, 0.8);">Credits</strong>
+  <ul style="list-style: none; padding: 0; margin: 0;">
+    <li>Moon phase images: <a href="https://svs.gsfc.nasa.gov/5415/" target="_blank" style="color: inherit; text-decoration: underline;">NASA’s Scientific Visualization Studio</a></li>
+    <li>Moon phase guide: <a href="https://moonphase.guide/" target="_blank" style="color: inherit; text-decoration: underline;">Moon Phase Guide</a></li>
+    <li>Hero background image: <a href="https://pixabay.com/illustrations/earth-space-sunlight-sun-rays-1756274/" target="_blank" style="color: inherit; text-decoration: underline;">Pixabay</a></li>
+  </ul>
+</div>
+
+
+
 
 <!--
 
