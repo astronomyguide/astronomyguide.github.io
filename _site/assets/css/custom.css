@@ -92,10 +92,13 @@ html, body {
   }
 
   .moon {
-    margin-bottom: 73px;
-    scale: 0.9
+    margin-bottom: 66px;
+    scale: 0.85
   }
 
+  .moontop {
+    margin-right: 4px;
+  }
 
 }
 
@@ -163,6 +166,10 @@ html, body {
 
   .moon {
     margin-bottom: 73px;
+  }
+
+  .moontop {
+    margin-right: 4px;
   }
   
 }
@@ -277,6 +284,10 @@ html, body {
       margin-bottom: 73px;
     }
 
+    .moontop {
+      margin-right: 11px;
+    }
+
 }
 
 @media (min-width: 1376px) {
@@ -342,6 +353,10 @@ html, body {
 
   .moon {
     margin-bottom: 73px;
+  }
+
+  .moontop {
+    margin-right: 11px;
   }
 
 }
