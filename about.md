@@ -53,7 +53,7 @@ featured-img: /assets/img/dawn.jpeg
 
 <img src="/assets/img/projects/26project1.jpeg" alt="" style="margin-top: 0px !important; scale: 1.0;">
 
-<img src="/assets/img/projects/26project2.jpeg" alt="" style="margin-top: -85px !important; scale: 1.0">
+<img src="/assets/img/projects/26project2.jpeg" alt="" style="margin-top: -37px !important; scale: 1.0">
 
 <div style="display: flex; text-align: center; justify-content: center; margin-top: 200px;">*버튼 기능은 현재 준비 중입니다. 감사합니다.</div>
 
