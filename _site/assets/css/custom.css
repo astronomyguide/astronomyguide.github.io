@@ -18,6 +18,7 @@
 html, body {
   background-color: black !important;
   overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 @media (max-width: 768px) {
@@ -93,7 +94,7 @@ html, body {
 
   .moon {
     margin-bottom: 55px;
-    scale: 0.85
+    scale: 0.77
   }
 
   .moontop {
@@ -354,7 +355,7 @@ html, body {
   }
 
   .moon {
-    margin-bottom: 73px;
+    margin-bottom: 127px;
   }
 
   .moontop {
@@ -940,3 +941,10 @@ hr {
 .hero__wrap {
   color: white !important;
 }
+
+.scroll-down-btn {
+  top: 99vh !important;
+}
+
+
+
